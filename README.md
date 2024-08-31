@@ -109,11 +109,13 @@ emotion-recognition-speech/
 - Audio features are extracted using OpenSMILE's eGeMAPSv02 feature set.
 - The dataset is split into training and testing sets, with stratification to ensure balanced emotion distribution.
 - Features are standardized using Scikit-learn's StandardScaler.
+![k-NN_majority_voting_confusion_matrix](https://github.com/user-attachments/assets/e9e1e8f2-3721-480a-86dc-9f89a3bc7505)
 
 ### Model Training
 
 - A K-Nearest Neighbors classifier is trained using GridSearchCV for hyperparameter tuning.
 - The optimal number of neighbors is determined through cross-validation.
+![accuracy_vs_k](https://github.com/user-attachments/assets/cf897e4f-8282-4240-9d91-dfee131e2e57)
 
 ### Classification Strategies
 
